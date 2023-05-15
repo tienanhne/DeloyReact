@@ -26,7 +26,7 @@ const Header = () => {
     <div className='flex container mx-auto items-center justify-between h-full'>
       <Link to={'/'}>
         <div>
-          <img className='w-[40px]' src={Logo} alt='anh' />
+          <img className='w-[40px]' src={Logo} alt='anh' /> Le Dinh Tien
         </div>
       </Link>
       <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex 
